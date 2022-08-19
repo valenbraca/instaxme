@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("fonts/Roboto-Regular.ttf");}
+
+.nav_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+       
+        font-size: 1.3em;
+    }
+
+    
+    .login-card {
+        background: #FFFFFF;
+        color: #151515;
+        width: 20%;
+        height: 300px;
+        margin: 15% auto;
+        position: relative;
+        border-radius: 25px;
+    }
+    
+    .login-card .exit-button {
+        margin-left: 95%;
+        color: #838383;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+  
+    
+    .login-card a {
+       color: #838383 ;
+    }
+    
+    .login-card a:hover {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        color: #cfcbcb;
+    }
+    
+    .login-card .login-lower {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 0.6em;
+    }
+    
+    .login-card .login-lower a {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .login-card ul {
+        margin-left: 0;
+    }
+    
+    .login-card input:nth-child(1),
+    .login-card input:nth-child(2) {
+        
+        height: 25px;
+        width: 80%;
+        margin-left: 11%;
+        outline: none;
+        background-color: transparent;
+        border: none;
+        margin-bottom: 15px;
+        
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .login-card input:focus {
+        transform: scale(1.1);
+    }
+    
+    textarea:focus,
+    input:focus,
+    input[type]:focus {
+        outline: none;
+        
+    }
+    
+    input::placeholder {
+        text-align: center;
+        color: rgba(15, 15, 15, 0.6);
+        font-weight: bold;
+    }
+    
+    .login-card .img {
+        margin-left: 37%;
+        width: 90px;
+        height: 45px;
+    }
+    
+    .login-card .img:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .login {
+        background-color: rgba(15, 15, 15, 0.8);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s;
+    }
+    
+    #login:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+header {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items:center ;
+        flex-wrap: wrap;
+        background-color: #EFEFF6;
+        font-family: 'Roboto-Regular';
+        
+    }
+
+
+li {
+font-family: 'Roboto-Regular';
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+padding: 1em;
+}
+.gradientline {
+    height: 16px;
+    left: 0px;
+    top: 120px;
+    
+    background: linear-gradient(90deg, #FF1103 5.95%, #FF7A00 25.48%, #FFB200 46.41%, #5DC300 65.94%, #008DE0 90.12%);
+}
+.container-imagen {
+ background-color: #FF7A00 ;
+ height: 430px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+
+}
+
+.makeyour {
+    font-family: 'Roboto-Regular';
+    font-weight: 300;
+    font-size: 3.1em;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+}
+
+.instaphoto{
+    height:100%;
+}
+
+.products span {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Roboto-Regular';
+    padding: 5%
+}    
+
+.howitworks{
+    font-family: 'Roboto-Regular';
+    font-weight: 300;
+    font-size: 1.5em;
+    width: 100%;
+    justify-items: center;
+    align-items:center;
+    justify-content: space-evenly;
+    display: grid;
+grid-template-columns: 2fr 2fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+padding: 20px;
+    flex-wrap: wrap;
+
+}
+.steps{
+    width: 100px;
+}
+.steps2{
+    height: 356px;
+}
+.couple{
+    height:750px;
+}
+.products ul {
+    margin-top: 8vh;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products article {
+    margin: 15px;
+    width: 428px;
+    min-width: 310px;
+    height: 600px;
+    border-radius: 22px;
+    ;
+}
+.products article:first-child {
+    background-image: url(img/pack1-pc.png);
+    background-size: cover;
+}
+
+
+.products article:nth-child(2) {
+    background-image: url(img/pack2-pic.png);
+    background-size: cover;
+}
+
+.aboutus{
+  height: 910px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto-Regular';
+  align-items: center;
+  width: 70%;
+font-weight: 300;
+font-size: 2em;
+}
+
+.contactus{
+    height: 910px;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto-Regular';
+    width: 100%;
+  font-weight: 300;
+  font-size: 2em; 
+}
